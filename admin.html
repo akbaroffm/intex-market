@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/admin.css">
+    <title>Intex admin</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="flex">
+                <nav class="nav-list">
+                    <div class="site-name">
+                        <a class="site-name__link" href="/admin.html">INTEX-MARKET.UZ</a>
+                    </div>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a class="list-link" href="#">Продукты</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#">Заказы</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#">Категории</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#">Сайт</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main-page">
+                    <div class="header">
+                        <a class="viewsite" href="/admin.html">
+                            Просмотр веб-сайта
+                        </a>
+                    </div>
+                    <div class="inputAdd-wrapper">
+                        <input class="search-input" type="text" placeholder="Найти">
+                        <ul class="search-list">
+                            
+                        </ul>
+                        <button class="add-btn">+ Добавить продукт</button>
+                    </div>
+                    <div class="type-name">
+                        <ul class="type-list">
+                            <li id="0" class="type-item">Каркасные</li>
+                            <li id="1" class="type-item">Надувные</li>
+                            <li id="2" class="type-item">Заказы</li>
+                        </ul>
+                        <table>
+                            <thead class="thead">
+                                <tr class="table-list">
+                                    <th class="table-item border-l">Изображение</th>
+                                    <th class="table-item">Имя товара</th>
+                                    <th class="table-item">Цена(сум)</th>
+                                    <th class="table-item">Количество</th>
+                                    <th class="table-item">Статус</th>
+                                    <th class="table-item border-r">Действия</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+    </div>
+</body>
+<script src="./js/admin.js"></script>
+</html>
